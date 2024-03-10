@@ -4,6 +4,25 @@
  * ...other header fields
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+ html {
+    font-family: "Playpen Sans", cursive;
+ }
+
+ h1, h2, h3, a, p {
+    font-family: "Playpen Sans", cursive;
+ }
+
  .site-header.is-sticky .site-title a {
     font-size: 20px;
+ }
+
+ .site-content {
+    width: 1200px;
+    margin: 100px auto 0;
+ }
+
+ #header-image {
+    max-height: 400px;
  }
