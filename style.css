@@ -15,7 +15,11 @@
  }
 
  .site-header.is-sticky .site-title a {
-    font-size: 20px;
+    font-size: 30px;
+ }
+
+ .site-header .site-title:before, .site-header .site-title:after {
+    content: none;
  }
 
  .site-content {
