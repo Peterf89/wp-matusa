@@ -1,5 +1,9 @@
 /**
- * Theme Name: Creativ Educativ
+ * Theme Name: Educativ Creativ
  * Template:   kids-education
  * ...other header fields
  */
+
+ .site-header.is-sticky .site-title a {
+    font-size: 20px;
+ }
