@@ -9,7 +9,6 @@
 <div id="primary">
 	<main id="main">
 		<?php if ( have_posts() ) : ?>
-			<div class="divider"></div>
 
 			<?php
 				$term_id = get_term_by('slug', 'povesti', 'category')->term_id;
@@ -18,6 +17,8 @@
 				foreach ($postslist as $post) :
 			?>
 
+<div class="content-container">
+			<div class="content">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="inside-article">
 					<div class="article-holder">
@@ -28,6 +29,8 @@
 					</div>
 				</div>
 			</article>
+		</div>
+		</div>
 			
 			<?php endforeach; 
 
