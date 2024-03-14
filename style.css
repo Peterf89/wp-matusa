@@ -31,7 +31,9 @@
     max-height: 400px;
  }
 
+
  .blog-post-wrap {
+	font-size: 16pt;
 	color: #E8E8E8;
 	display: block;
 	min-height: auto;
